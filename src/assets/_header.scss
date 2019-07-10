@@ -1,0 +1,40 @@
+.main-head-top {
+    width: 100%;
+    position: relative;
+    background-color: $blue;
+    .title-logo {
+        text-transform: uppercase;
+        font-size: 2em;
+        padding: 12px;
+       margin:0;
+        color:white;
+        a{
+            color:white;
+            text-decoration: none;
+        }
+    }
+    .menu-main {
+        width:100%;
+        margin-top:10px;
+        .navbar-liste {
+            font-size: 1em;
+            text-transform: uppercase;
+            justify-content: space-around;
+            min-width: 15%;
+            padding: 10px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+    }
+    .search-main {
+        margin-top: 15px;
+        border: none;
+    }
+    .localisation-main {
+        margin-top: 15px;
+    }
+
+}
