@@ -1,0 +1,4734 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Accordion Nominal Case 1`] = `
+<Accordion>
+  <AccordionItem
+    title="Titre"
+  >
+    Content
+  </AccordionItem>
+</Accordion>
+`;
+
+exports[`Storyshots Alert Alert Danger 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="danger type"
+  ttl={-15000}
+  type="danger"
+/>
+`;
+
+exports[`Storyshots Alert Alert Default 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="success type"
+  ttl={-15000}
+  type=""
+/>
+`;
+
+exports[`Storyshots Alert Alert dark 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="dark type"
+  ttl={-15000}
+  type="dark"
+/>
+`;
+
+exports[`Storyshots Alert Alert info 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="info type"
+  ttl={-15000}
+  type="info"
+/>
+`;
+
+exports[`Storyshots Alert Alert light 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="light type"
+  ttl={-15000}
+  type="light"
+/>
+`;
+
+exports[`Storyshots Alert Alert primary 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="primary type"
+  ttl={-15000}
+  type="primary"
+/>
+`;
+
+exports[`Storyshots Alert Alert secondary 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="secondary type"
+  ttl={-15000}
+  type="secondary"
+/>
+`;
+
+exports[`Storyshots Alert Alert warning 1`] = `
+<Alert
+  resetMessage={[Function]}
+  show={true}
+  text="warning type"
+  ttl={-15000}
+  type="warning"
+/>
+`;
+
+exports[`Storyshots ApiAvailability ApiAvailability 1`] = `
+<div>
+  <CardHeader
+    tag="div"
+  >
+    <i
+      className="fa fa-calculator"
+    />
+     
+     Disponibilité des 60 derniers jours
+  </CardHeader>
+  <CardBlockcomponent__CardBlock>
+    <ApiAvailability
+      apiAvailability={
+        Object {
+          "availabilityPercentage": 70,
+          "timestamp": 1530197034293,
+        }
+      }
+    />
+  </CardBlockcomponent__CardBlock>
+</div>
+`;
+
+exports[`Storyshots ApiCard API with 1 description 1`] = `
+<InjectIntl(ApiCard)
+  api={
+    Object {
+      "description": "",
+      "endpoint": "https://endpoint.fr",
+      "highlights": Array [
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+      ],
+      "logoUrl": "data:image/png;base64,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",
+      "name": "My Api",
+      "private": false,
+      "sandboxEndpoint": "https://sandboxendpoint.fr",
+      "shortDescription": "This is the short description of my API but I am the only one description",
+      "subscriptionWebhook": "https://webhook.fr",
+      "urlContext": "myApi",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots ApiCard API with 2 highlights 1`] = `
+<InjectIntl(ApiCard)
+  api={
+    Object {
+      "description": "This is the longer description of my API, this descriptions is long but still limited to a certain number of characters.",
+      "endpoint": "https://endpoint.fr",
+      "highlights": Array [
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+      ],
+      "logoUrl": "data:image/png;base64,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",
+      "name": "My Api",
+      "private": false,
+      "sandboxEndpoint": "https://sandboxendpoint.fr",
+      "shortDescription": "This is the short description of my API",
+      "subscriptionWebhook": "https://webhook.fr",
+      "urlContext": "myApi",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots ApiCard API with no description 1`] = `
+<InjectIntl(ApiCard)
+  api={
+    Object {
+      "description": "",
+      "endpoint": "https://endpoint.fr",
+      "highlights": Array [
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+      ],
+      "logoUrl": "data:image/png;base64,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",
+      "name": "My Api",
+      "private": false,
+      "sandboxEndpoint": "https://sandboxendpoint.fr",
+      "shortDescription": "",
+      "subscriptionWebhook": "https://webhook.fr",
+      "urlContext": "myApi",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots ApiCard Pivate Api 1`] = `
+<InjectIntl(ApiCard)
+  api={
+    Object {
+      "description": "This is the longer description of my API, this descriptions is long but still limited to a certain number of characters.",
+      "endpoint": "https://endpoint.fr",
+      "highlights": Array [
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+      ],
+      "logoUrl": "data:image/png;base64,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",
+      "name": "My Api",
+      "private": true,
+      "sandboxEndpoint": "https://sandboxendpoint.fr",
+      "shortDescription": "This is the short description of my API",
+      "subscriptionWebhook": "https://webhook.fr",
+      "urlContext": "myApi",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots ApiCard Public Api 1`] = `
+<InjectIntl(ApiCard)
+  api={
+    Object {
+      "description": "This is the longer description of my API, this descriptions is long but still limited to a certain number of characters.",
+      "endpoint": "https://endpoint.fr",
+      "highlights": Array [
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+        Object {
+          "description": "A car icon to highlight my API cause I like cars",
+          "fontIcon": "CAR",
+          "title": "Car",
+        },
+      ],
+      "logoUrl": "data:image/png;base64,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",
+      "name": "My Api",
+      "private": false,
+      "sandboxEndpoint": "https://sandboxendpoint.fr",
+      "shortDescription": "This is the short description of my API",
+      "subscriptionWebhook": "https://webhook.fr",
+      "urlContext": "myApi",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots ApiForm ApiForm add mode 1`] = `
+<Provider
+  store={
+    Object {
+      "asyncReducers": Object {},
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IntlProvider
+    locale="fr"
+    messages={
+      Object {
+        "api.description.info": "500 caractères maximum. Cette description longue apparaîtra sur la page dédiée à votre API.",
+        "api.description.label": "Description longue",
+        "api.endpoint.info": "L’URL de production est le point d’entrée de votre API. Toutes les requêtes qui passent par developer.laposte.fr sont redirigées vers votre API via l'URL de production.",
+        "api.endpoint.label": "URL de production (endpoint)",
+        "api.endpoint.placeHolder": " https://url.monapi.fr/\\"",
+        "api.logoUrl.info": "Le visuel associé à l'API sera repris sur les cartes de présentation de l'API ainsi que sur la page dédiée à l'API. Les préconisations sont :
+    {br}- un format image 318x250
+    {br}- une résolution de 72 dpi
+    {br}- sur fond #EAEAEA.",
+        "api.logoUrl.label": "URL du visuel associé à l'API",
+        "api.logoUrl.placeHolder": "https://www.monsite.fr/logo.png",
+        "api.makePrivate.label": "Cette API est privée",
+        "api.name.placeHolder": "Mon API",
+        "api.sandboxEndpoint.info": "L’URL de test est un point d’entrée vers votre API pour que les utilisateurs puissent tester votre API. Il est conseillé que cette RL soit différente de l’URL de production.",
+        "api.sandboxEndpoint.label": "URL de test (sandbox endpoint)",
+        "api.sandboxEndpoint.placeHolder": " https://url.sandbox.monapi.fr/",
+        "api.shortDescription.info": "140 caractères maximum. Cette description courte apparaîtra sur la carte de présentation de l'API présente dans le catalogue.",
+        "api.shortDescription.label": "Description courte",
+        "api.type.info": "Par défaut, une API est publique. En rendant cette API privée, vous en restreignez l'accès aux seuls utilisateurs que vous autorisez.",
+        "api.urlContext.label": "Nom de l'API dans l'URL",
+        "api.urlContext.placeHolder": "mon-api",
+        "api.urlPreview.label": "URL de l'API",
+        "api.version.placeHolder": "1",
+        "api.webhook.info": "Service de notification qui porte sur les événements de souscription et de résiliation.",
+        "api.webhook.label": "Webhook",
+        "api.webhook.placeHolder": "https://www.monsite.fr/api/callback",
+        "commons.cancel.label": "Annuler",
+        "commons.name.label": "Nom",
+        "commons.okapi.baseUrl": "https://api.laposte.fr/",
+        "commons.validate.label": "Valider",
+        "commons.version.label": "Version",
+        "highlight.add.title": "Ajouter une nouvelle mise en avant marketing.",
+        "highlight.description.label": "Description",
+        "highlight.form.info": "Les mises en avant marketing sont facultatives. Elles sont limitées à 3 au maximum par API et sont affichées sur la page du catalogue dédiée à l'API. Contraintes de saisie : {br} - La sélection d'une icône rend obligatoire la saisie du champ \\"Intitulé\\". {br} - Le remplissage du champ \\"Intitulé\\" rend obligatoire la sélection d'une icône. Le champ \\"Intitulé\\" est limité à 32 caractères. {br} - Le champ \\"Description\\" est facultatif et limité à 150 caractères.",
+        "highlight.icon.label": "Icône",
+        "highlight.title": "Mise en avant marketing de l'API",
+        "highlight.title.label": "Intitulé",
+      }
+    }
+  >
+    <Connect(ReduxForm)
+      apiNameToUrlContext={[Function]}
+      formMode="add"
+      highlightsDisplayed={
+        Array [
+          0,
+        ]
+      }
+      onAddApi={[Function]}
+      onCancelForm={[Function]}
+      onSubmit={[Function]}
+    />
+  </IntlProvider>
+</Provider>
+`;
+
+exports[`Storyshots ApiForm ApiForm edit mode 1`] = `
+<Provider
+  store={
+    Object {
+      "asyncReducers": Object {},
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IntlProvider
+    locale="fr"
+    messages={
+      Object {
+        "api.description.info": "500 caractères maximum. Cette description longue apparaîtra sur la page dédiée à votre API.",
+        "api.description.label": "Description longue",
+        "api.endpoint.info": "L’URL de production est le point d’entrée de votre API. Toutes les requêtes qui passent par developer.laposte.fr sont redirigées vers votre API via l'URL de production.",
+        "api.endpoint.label": "URL de production (endpoint)",
+        "api.endpoint.placeHolder": " https://url.monapi.fr/\\"",
+        "api.logoUrl.info": "Le visuel associé à l'API sera repris sur les cartes de présentation de l'API ainsi que sur la page dédiée à l'API. Les préconisations sont :
+    {br}- un format image 318x250
+    {br}- une résolution de 72 dpi
+    {br}- sur fond #EAEAEA.",
+        "api.logoUrl.label": "URL du visuel associé à l'API",
+        "api.logoUrl.placeHolder": "https://www.monsite.fr/logo.png",
+        "api.makePrivate.label": "Cette API est privée",
+        "api.name.placeHolder": "Mon API",
+        "api.sandboxEndpoint.info": "L’URL de test est un point d’entrée vers votre API pour que les utilisateurs puissent tester votre API. Il est conseillé que cette RL soit différente de l’URL de production.",
+        "api.sandboxEndpoint.label": "URL de test (sandbox endpoint)",
+        "api.sandboxEndpoint.placeHolder": " https://url.sandbox.monapi.fr/",
+        "api.shortDescription.info": "140 caractères maximum. Cette description courte apparaîtra sur la carte de présentation de l'API présente dans le catalogue.",
+        "api.shortDescription.label": "Description courte",
+        "api.type.info": "Par défaut, une API est publique. En rendant cette API privée, vous en restreignez l'accès aux seuls utilisateurs que vous autorisez.",
+        "api.urlContext.label": "Nom de l'API dans l'URL",
+        "api.urlContext.placeHolder": "mon-api",
+        "api.urlPreview.label": "URL de l'API",
+        "api.version.placeHolder": "1",
+        "api.webhook.info": "Service de notification qui porte sur les événements de souscription et de résiliation.",
+        "api.webhook.label": "Webhook",
+        "api.webhook.placeHolder": "https://www.monsite.fr/api/callback",
+        "commons.cancel.label": "Annuler",
+        "commons.name.label": "Nom",
+        "commons.okapi.baseUrl": "https://api.laposte.fr/",
+        "commons.validate.label": "Valider",
+        "commons.version.label": "Version",
+        "highlight.add.title": "Ajouter une nouvelle mise en avant marketing.",
+        "highlight.description.label": "Description",
+        "highlight.form.info": "Les mises en avant marketing sont facultatives. Elles sont limitées à 3 au maximum par API et sont affichées sur la page du catalogue dédiée à l'API. Contraintes de saisie : {br} - La sélection d'une icône rend obligatoire la saisie du champ \\"Intitulé\\". {br} - Le remplissage du champ \\"Intitulé\\" rend obligatoire la sélection d'une icône. Le champ \\"Intitulé\\" est limité à 32 caractères. {br} - Le champ \\"Description\\" est facultatif et limité à 150 caractères.",
+        "highlight.icon.label": "Icône",
+        "highlight.title": "Mise en avant marketing de l'API",
+        "highlight.title.label": "Intitulé",
+      }
+    }
+  >
+    <Connect(ReduxForm)
+      api={
+        Object {
+          "name": "ApiName",
+          "shortDescription": "Description short",
+          "urlContext": "apiname",
+          "version": "1",
+        }
+      }
+      apiNameToUrlContext={[Function]}
+      formMode="edit"
+      highlightsDisplayed={
+        Array [
+          0,
+        ]
+      }
+      onAddApi={[Function]}
+      onCancelForm={[Function]}
+      onSubmit={[Function]}
+    />
+  </IntlProvider>
+</Provider>
+`;
+
+exports[`Storyshots ApiPrivateUsers ApiPrivateUsers 1`] = `
+<Provider
+  store={
+    Object {
+      "asyncReducers": Object {},
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IntlProvider
+    locale="fr"
+    messages={
+      Object {
+        "app.services.Validator.errorRequired": "Champ obligatoire",
+        "user.add.label": "Ajouter un utilisateur",
+        "user.add.placeholder": "Saisissez un email",
+      }
+    }
+  >
+    <ReduxForm
+      anyTouched={false}
+      asyncValidate={[Function]}
+      asyncValidating={false}
+      autofill={[Function]}
+      blur={[Function]}
+      change={[Function]}
+      clearAsyncError={[Function]}
+      clearFields={[Function]}
+      clearSubmit={[Function]}
+      clearSubmitErrors={[Function]}
+      destroy={[Function]}
+      dirty={false}
+      dispatch={[Function]}
+      error={null}
+      form="form-name"
+      handleSubmit={[Function]}
+      initialize={[Function]}
+      initialized={true}
+      intl={
+        Object {
+          "formatDate": [Function],
+          "formatHTMLMessage": [Function],
+          "formatMessage": [Function],
+          "formatNumber": [Function],
+          "formatPlural": [Function],
+          "formatRelative": [Function],
+          "formatTime": [Function],
+          "now": [Function],
+        }
+      }
+      invalid={true}
+      onAddUser={[Function]}
+      onRemoveUser={[Function]}
+      onSaveResponse={Promise {}}
+      pristine={true}
+      pure={true}
+      reset={[Function]}
+      resetSection={[Function]}
+      submit={[Function]}
+      submitFailed={false}
+      submitSucceeded={false}
+      submitting={false}
+      touch={[Function]}
+      touched={false}
+      untouch={[Function]}
+      users={Array []}
+      valid={false}
+    />
+  </IntlProvider>
+</Provider>
+`;
+
+exports[`Storyshots ApiPrivateUsers ApiPrivateUsersWithUser 1`] = `
+<Provider
+  store={
+    Object {
+      "asyncReducers": Object {},
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IntlProvider
+    locale="fr"
+    messages={
+      Object {
+        "app.services.Validator.errorRequired": "Champ obligatoire",
+        "user.add.label": "Ajouter un utilisateur",
+        "user.add.placeholder": "Saisissez un email",
+      }
+    }
+  >
+    <ReduxForm
+      anyTouched={false}
+      asyncValidate={[Function]}
+      asyncValidating={false}
+      autofill={[Function]}
+      blur={[Function]}
+      change={[Function]}
+      clearAsyncError={[Function]}
+      clearFields={[Function]}
+      clearSubmit={[Function]}
+      clearSubmitErrors={[Function]}
+      destroy={[Function]}
+      dirty={false}
+      dispatch={[Function]}
+      error={null}
+      form="form-name"
+      handleSubmit={[Function]}
+      initialize={[Function]}
+      initialized={true}
+      intl={
+        Object {
+          "formatDate": [Function],
+          "formatHTMLMessage": [Function],
+          "formatMessage": [Function],
+          "formatNumber": [Function],
+          "formatPlural": [Function],
+          "formatRelative": [Function],
+          "formatTime": [Function],
+          "now": [Function],
+        }
+      }
+      invalid={true}
+      onAddUser={[Function]}
+      onRemoveUser={[Function]}
+      onSaveResponse={Promise {}}
+      pristine={true}
+      pure={true}
+      reset={[Function]}
+      resetSection={[Function]}
+      submit={[Function]}
+      submitFailed={false}
+      submitSucceeded={false}
+      submitting={false}
+      touch={[Function]}
+      touched={false}
+      untouch={[Function]}
+      users={
+        Array [
+          Object {
+            "email": "toto@toto.com",
+            "firstName": "Toto",
+            "id": "1",
+            "lastName": "Titi",
+          },
+        ]
+      }
+      valid={false}
+    />
+  </IntlProvider>
+</Provider>
+`;
+
+exports[`Storyshots ApisDashboard Dashboard for Admin/Provider 1`] = `
+<ApisDashboard
+  data={
+    Object {
+      "myDashboard": Object {
+        "apiLastDaysMetrics": Object {
+          "activities": Array [
+            Object {
+              "activity": Object {
+                "chartKey": "apiLastDaysMetricsActivity",
+                "data": Object {
+                  "datasets": Array [
+                    Object {
+                      "data": Array [
+                        4,
+                        0,
+                        0,
+                        0,
+                        1,
+                      ],
+                    },
+                  ],
+                  "labels": Array [
+                    "18/05",
+                    "19/05",
+                    "20/05",
+                    "21/05",
+                    "22/05",
+                  ],
+                },
+                "title": "Activité",
+              },
+              "api": Object {
+                "name": "Local Demo",
+                "published": false,
+                "urlContext": "local",
+                "version": 1,
+              },
+              "apiAvailability": Object {
+                "availabilityPercentage": 80,
+                "date": "1530197034293",
+              },
+              "performance": Object {
+                "chartKey": "apiLastDaysMetricsPerformance",
+                "data": Object {
+                  "datasets": Array [
+                    Object {
+                      "data": Array [
+                        55,
+                        120,
+                        750,
+                      ],
+                    },
+                    Object {
+                      "data": Array [
+                        50,
+                        100,
+                        75,
+                      ],
+                    },
+                  ],
+                  "labels": Array [
+                    "17/05",
+                    "18/05",
+                    "19/05",
+                  ],
+                },
+                "title": "Temps de réponse (ms)",
+              },
+              "statusCode": Object {
+                "chartKey": "apiLastDaysMetricsStatusCode",
+                "data": Object {
+                  "datasets": Array [
+                    Object {
+                      "data": Array [
+                        1,
+                        4,
+                        3,
+                        6,
+                      ],
+                    },
+                  ],
+                  "labels": Array [
+                    "2xx",
+                    "4xx",
+                    "504/503",
+                    "5xx",
+                  ],
+                },
+                "title": "Codes HTTP",
+              },
+              "subscriptionActivity": Object {
+                "subscriptionsForLast60days": 3,
+                "subscriptionsTotal": 4,
+                "unsubscriptionsForLast60days": 1,
+              },
+              "trafficMaxAndAvg": Object {
+                "trafficAvg": 1,
+                "trafficMax": 4,
+              },
+            },
+          ],
+        },
+      },
+    }
+  }
+  dispatch={[Function]}
+  setApiFromUrl={[Function]}
+/>
+`;
+
+exports[`Storyshots AppCard AppCard 1`] = `
+<AppCard
+  apps={
+    Array [
+      Object {
+        "description": "myApi V1",
+        "id": "1",
+        "name": "myApi",
+      },
+    ]
+  }
+  selectApp={[Function]}
+/>
+`;
+
+exports[`Storyshots AppCard AppCards 1`] = `
+<AppCard
+  apps={
+    Array [
+      Object {
+        "description": "myApi V1",
+        "id": "1",
+        "name": "myApi",
+      },
+      Object {
+        "description": "I am the selected Api",
+        "name": "Api selected",
+      },
+      Object {
+        "description": "myApi V3",
+        "id": "3",
+        "name": "myApi",
+      },
+    ]
+  }
+  selectApp={[Function]}
+/>
+`;
+
+exports[`Storyshots AppsDashboard Dashboard for User 1`] = `
+<AppsDashboard
+  data={
+    Object {
+      "myDashboard": Object {
+        "errorsMetric": Object {
+          "chart": Object {
+            "chartKey": "errorsMetricConsumption",
+            "data": Object {
+              "datasets": Array [
+                Object {
+                  "data": Array [
+                    13,
+                    14,
+                    9,
+                    6,
+                  ],
+                },
+              ],
+              "labels": Array [
+                "2xx",
+                "4xx",
+                "504/503",
+                "5xx",
+              ],
+            },
+            "title": "Status HTTP",
+          },
+        },
+        "lastDaysMetric": Object {
+          "chart": Object {
+            "chartKey": "lastDaysMetricConsumption",
+            "data": Object {
+              "datasets": Array [
+                Object {
+                  "data": Array [
+                    2,
+                    1,
+                    0,
+                    0,
+                    6,
+                    12,
+                  ],
+                },
+              ],
+              "labels": Array [
+                "09/12",
+                "10/12",
+                "11/12",
+                "12/12",
+                "13/12",
+                "14/12",
+              ],
+            },
+            "title": "Consommation",
+          },
+        },
+        "subscriptionCurrentMonthConsumptionsMetric": Object {
+          "appConsumptionInfo": Array [
+            Object {
+              "apiConsumptionInfo": Array [
+                Object {
+                  "api": Object {
+                    "name": "Suivi",
+                    "version": "1",
+                  },
+                  "chart": Object {
+                    "chartKey": "apiForAppliVersion",
+                    "data": Object {
+                      "datasets": Array [
+                        Object {
+                          "data": Array [
+                            185,
+                            200,
+                            123,
+                            423,
+                            333,
+                          ],
+                        },
+                      ],
+                      "labels": Array [
+                        "01/01",
+                        "02/01",
+                        "03/01",
+                        "04/01",
+                        "05/01",
+                      ],
+                    },
+                    "title": "Suivi v1",
+                  },
+                },
+              ],
+              "app": Object {
+                "id": "id1",
+                "name": "Android Get Shirt",
+              },
+            },
+            Object {
+              "apiConsumptionInfo": Array [
+                Object {
+                  "api": Object {
+                    "name": "Suivi",
+                    "version": "1",
+                  },
+                  "chart": Object {
+                    "chartKey": "apiForAppliVersion",
+                    "data": Object {
+                      "datasets": Array [
+                        Object {
+                          "data": Array [
+                            185,
+                            200,
+                            123,
+                            423,
+                            333,
+                          ],
+                        },
+                      ],
+                      "labels": Array [
+                        "01/01",
+                        "02/01",
+                        "03/01",
+                        "04/01",
+                        "05/01",
+                      ],
+                    },
+                    "title": "Suivi v1",
+                  },
+                },
+              ],
+              "app": Object {
+                "id": "id2",
+                "name": "My other App",
+              },
+            },
+          ],
+        },
+      },
+    }
+  }
+  dispatch={[Function]}
+/>
+`;
+
+exports[`Storyshots Button All Buttons 1`] = `
+<Buttoncomponentstory__DivForStorybook>
+  <Button
+    isLink={false}
+    isResponsive={true}
+    onClick={[Function]}
+  >
+    Button default
+  </Button>
+  <Button
+    disabled={true}
+    isLink={false}
+    isResponsive={true}
+    onClick={[Function]}
+  >
+    Button disabled
+  </Button>
+  <ButtonPrimarycomponent__ButtonPrimary
+    onClick={[Function]}
+  >
+    ButtonPrimary Default
+  </ButtonPrimarycomponent__ButtonPrimary>
+  <ButtonPrimarycomponent__ButtonPrimary
+    disabled={true}
+    onClick={[Function]}
+  >
+    ButtonPrimary Disabled
+  </ButtonPrimarycomponent__ButtonPrimary>
+  <ButtonSecondarycomponent__ButtonSecondary
+    onClick={[Function]}
+  >
+    ButtonSecondary Default
+  </ButtonSecondarycomponent__ButtonSecondary>
+  <ButtonSecondarycomponent__ButtonSecondary
+    disabled={true}
+    onClick={[Function]}
+  >
+    ButtonSecondary Disabled
+  </ButtonSecondarycomponent__ButtonSecondary>
+  <ButtonTernarycomponent__ButtonTernary
+    onClick={[Function]}
+  >
+    ButtonTernary Default
+  </ButtonTernarycomponent__ButtonTernary>
+  <ButtonTernarycomponent__ButtonTernary
+    disabled={true}
+    onClick={[Function]}
+  >
+    ButtonTernary Disabled
+  </ButtonTernarycomponent__ButtonTernary>
+</Buttoncomponentstory__DivForStorybook>
+`;
+
+exports[`Storyshots Button All Link Buttons 1`] = `
+<Buttoncomponentstory__DivForStorybook>
+  <Button
+    isLink={true}
+    isResponsive={true}
+  >
+    Link Button default
+  </Button>
+  <Button
+    disabled={true}
+    isLink={true}
+    isResponsive={true}
+  >
+    Link Button disabled
+  </Button>
+  <ButtonPrimarycomponent__ButtonPrimary
+    isLink={true}
+  >
+    Link ButtonPrimary Default
+  </ButtonPrimarycomponent__ButtonPrimary>
+  <ButtonPrimarycomponent__ButtonPrimary
+    disabled={true}
+    isLink={true}
+    to="/toto"
+  >
+    Link ButtonPrimary Disabled
+  </ButtonPrimarycomponent__ButtonPrimary>
+  <ButtonSecondarycomponent__ButtonSecondary
+    isLink={true}
+  >
+    Link ButtonSecondary Default
+  </ButtonSecondarycomponent__ButtonSecondary>
+  <ButtonSecondarycomponent__ButtonSecondary
+    disabled={true}
+    isLink={true}
+  >
+    Link ButtonSecondary Disabled
+  </ButtonSecondarycomponent__ButtonSecondary>
+  <ButtonTernarycomponent__ButtonTernary
+    isLink={true}
+  >
+    Link ButtonTernary Default
+  </ButtonTernarycomponent__ButtonTernary>
+  <ButtonTernarycomponent__ButtonTernary
+    disabled={true}
+    isLink={true}
+  >
+    Link ButtonTernary Disabled
+  </ButtonTernarycomponent__ButtonTernary>
+</Buttoncomponentstory__DivForStorybook>
+`;
+
+exports[`Storyshots Button Button Default 1`] = `
+<Button
+  isLink={false}
+  isResponsive={true}
+  onClick={[Function]}
+>
+  Button Default
+</Button>
+`;
+
+exports[`Storyshots Button Button Disabled 1`] = `
+<Button
+  disabled={true}
+  isLink={false}
+  isResponsive={true}
+  onClick={[Function]}
+>
+  Button Disabled
+</Button>
+`;
+
+exports[`Storyshots Button Link Button Default 1`] = `
+<Button
+  isLink={true}
+  isResponsive={true}
+>
+  Link Button Default
+</Button>
+`;
+
+exports[`Storyshots Button Link Button Disabled 1`] = `
+<Button
+  disabled={true}
+  isLink={true}
+  isResponsive={true}
+>
+  Link Button Disabled
+</Button>
+`;
+
+exports[`Storyshots ButtonFirstStep ButtonFirstStep Default 1`] = `
+<ButtonFirstStepcomponent__ButtonFirstStep
+  isLink={true}
+  onClick={[Function]}
+>
+  ButtonFirstStep Default
+</ButtonFirstStepcomponent__ButtonFirstStep>
+`;
+
+exports[`Storyshots ButtonFirstStep Link ButtonFirstStep Default Link 1`] = `
+<ButtonFirstStepcomponent__ButtonFirstStep
+  isLink={true}
+>
+  Link ButtonFirstStep Default
+</ButtonFirstStepcomponent__ButtonFirstStep>
+`;
+
+exports[`Storyshots ButtonIcon Custom icon 1`] = `
+<ButtonIcon
+  disabled={false}
+  iconFontAwesome="fas fa-edit"
+  iconSize="1.125rem"
+/>
+`;
+
+exports[`Storyshots ButtonIcon Default 1`] = `
+<ButtonIcon
+  disabled={false}
+  iconFontAwesome="fas fa-question"
+  iconSize="1.125rem"
+/>
+`;
+
+exports[`Storyshots ButtonIcon Disabled 1`] = `
+<ButtonIcon
+  disabled={true}
+  iconFontAwesome="fas fa-lock"
+  iconSize="1.125rem"
+/>
+`;
+
+exports[`Storyshots ButtonPrimary ButtonPrimary Default 1`] = `
+<ButtonPrimarycomponent__ButtonPrimary
+  onClick={[Function]}
+>
+  ButtonPrimary Default
+</ButtonPrimarycomponent__ButtonPrimary>
+`;
+
+exports[`Storyshots ButtonPrimary ButtonPrimary Disabled 1`] = `
+<ButtonPrimarycomponent__ButtonPrimary
+  disabled={true}
+  onClick={[Function]}
+>
+  ButtonPrimary Disabled
+</ButtonPrimarycomponent__ButtonPrimary>
+`;
+
+exports[`Storyshots ButtonPrimary Link ButtonPrimary Default 1`] = `
+<ButtonPrimarycomponent__ButtonPrimary
+  isLink={true}
+>
+  Link ButtonPrimary Default
+</ButtonPrimarycomponent__ButtonPrimary>
+`;
+
+exports[`Storyshots ButtonPrimary Link ButtonPrimary Disabled 1`] = `
+<ButtonPrimarycomponent__ButtonPrimary
+  disabled={true}
+  isLink={true}
+>
+  Link ButtonPrimary Disabled
+</ButtonPrimarycomponent__ButtonPrimary>
+`;
+
+exports[`Storyshots ButtonSecondary ButtonSecondary Default 1`] = `
+<ButtonSecondarycomponent__ButtonSecondary
+  onClick={[Function]}
+>
+  ButtonSecondary Default
+</ButtonSecondarycomponent__ButtonSecondary>
+`;
+
+exports[`Storyshots ButtonSecondary ButtonSecondary Disabled 1`] = `
+<ButtonSecondarycomponent__ButtonSecondary
+  disabled={true}
+  onClick={[Function]}
+>
+  ButtonSecondary Disabled
+</ButtonSecondarycomponent__ButtonSecondary>
+`;
+
+exports[`Storyshots ButtonSecondary Link ButtonSecondary Default 1`] = `
+<ButtonSecondarycomponent__ButtonSecondary
+  isLink={true}
+>
+  Link ButtonSecondary Default
+</ButtonSecondarycomponent__ButtonSecondary>
+`;
+
+exports[`Storyshots ButtonSecondary Link ButtonSecondary Disabled 1`] = `
+<ButtonSecondarycomponent__ButtonSecondary
+  disabled={true}
+  isLink={true}
+>
+  Link ButtonSecondary Disabled
+</ButtonSecondarycomponent__ButtonSecondary>
+`;
+
+exports[`Storyshots ButtonTernary ButtonTernary Default 1`] = `
+<ButtonTernarycomponent__ButtonTernary
+  onClick={[Function]}
+>
+  ButtonTernary Default
+</ButtonTernarycomponent__ButtonTernary>
+`;
+
+exports[`Storyshots ButtonTernary ButtonTernary Disabled 1`] = `
+<ButtonTernarycomponent__ButtonTernary
+  disabled={true}
+  onClick={[Function]}
+>
+  ButtonTernary Disabled
+</ButtonTernarycomponent__ButtonTernary>
+`;
+
+exports[`Storyshots ButtonTernary Link ButtonTernary Default 1`] = `
+<ButtonTernarycomponent__ButtonTernary
+  isLink={true}
+>
+  Link ButtonTernary Default
+</ButtonTernarycomponent__ButtonTernary>
+`;
+
+exports[`Storyshots ButtonTernary Link ButtonTernary Disabled 1`] = `
+<ButtonTernarycomponent__ButtonTernary
+  disabled={true}
+  isLink={true}
+>
+  Link ButtonTernary Disabled
+</ButtonTernarycomponent__ButtonTernary>
+`;
+
+exports[`Storyshots ButtonToIcon ButtonToIcon and media queries 1`] = `
+<ButtonToIcon
+  iconName="fa fa-plus"
+  message="Message"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Storyshots ButtonToIcon ButtonToIcon, large 1`] = `
+<ButtonToIconstory__ActionContainer>
+  <ButtonPrimarycomponent__ButtonPrimary
+    onClick={[Function]}
+  >
+    Ajouter une ressource
+  </ButtonPrimarycomponent__ButtonPrimary>
+</ButtonToIconstory__ActionContainer>
+`;
+
+exports[`Storyshots ButtonToIcon ButtonToIcon, large and disabled 1`] = `
+<ButtonToIconstory__ActionContainer>
+  <ButtonPrimarycomponent__ButtonPrimary
+    disabled={true}
+    onClick={[Function]}
+  >
+    Ajouter une ressource
+  </ButtonPrimarycomponent__ButtonPrimary>
+</ButtonToIconstory__ActionContainer>
+`;
+
+exports[`Storyshots ButtonToIcon ButtonToIcon, small 1`] = `
+<ButtonToIconstory__ActionContainerSmall>
+  <ButtonPrimarycomponent__ButtonPrimary
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-plus"
+    />
+  </ButtonPrimarycomponent__ButtonPrimary>
+</ButtonToIconstory__ActionContainerSmall>
+`;
+
+exports[`Storyshots ButtonToIcon ButtonToIcon, small and disabled 1`] = `
+<ButtonToIconstory__ActionContainerSmall>
+  <ButtonPrimarycomponent__ButtonPrimary
+    disabled={true}
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-plus"
+    />
+  </ButtonPrimarycomponent__ButtonPrimary>
+</ButtonToIconstory__ActionContainerSmall>
+`;
+
+exports[`Storyshots ButtonToIcon Custom icon 1`] = `
+<ButtonToIcon
+  iconName="fa fa-times"
+  message="Button X"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Storyshots ButtonToIcon Default 1`] = `
+<ButtonToIcon
+  message="Default button"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Storyshots CardBlock CardBlock Example 1 1`] = `
+<CardBlockstory__CardContainer1>
+  <CardBlockcomponent__CardBlock>
+    <p>
+       Default CardBlock (200x400px) 
+    </p>
+  </CardBlockcomponent__CardBlock>
+</CardBlockstory__CardContainer1>
+`;
+
+exports[`Storyshots CardBlock CardBlock Example 2 1`] = `
+<CardBlockstory__CardContainer2>
+  <CardBlockcomponent__CardBlock>
+    <p>
+       Default CardBlock (60x900px) 
+    </p>
+  </CardBlockcomponent__CardBlock>
+</CardBlockstory__CardContainer2>
+`;
+
+exports[`Storyshots CheckBoxField checked checkbox 1`] = `
+<div
+  style={
+    Object {
+      "padding": "50px",
+    }
+  }
+>
+  <CheckBoxField
+    id="check box"
+    input={
+      Object {
+        "checked": "check",
+      }
+    }
+    label="checked"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="checkbox"
+    required={false}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots CheckBoxField default checkbox 1`] = `
+<div
+  style={
+    Object {
+      "padding": "50px",
+    }
+  }
+>
+  <CheckBoxField
+    id="check box"
+    label="default"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="checkbox"
+    required={false}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots CheckBoxField disabled checkbox 1`] = `
+<div
+  style={
+    Object {
+      "padding": "50px",
+    }
+  }
+>
+  <CheckBoxField
+    id="check box"
+    input={
+      Object {
+        "disabled": "disable",
+      }
+    }
+    label="disabled"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="checkbox"
+    required={false}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots ConfirmationModal Information 1`] = `
+<ConfirmationModal
+  cancel={[Function]}
+  confirm={[Function]}
+  isOpen={true}
+  modalType="INFORMATION"
+  onClosed={[Function]}
+  text="mytext"
+/>
+`;
+
+exports[`Storyshots ConfirmationModal confirmation 1`] = `
+<ConfirmationModal
+  cancel={[Function]}
+  confirm={[Function]}
+  isOpen={true}
+  modalType="CONFIRMATION"
+  onClosed={[Function]}
+  text="mytext"
+/>
+`;
+
+exports[`Storyshots CustomChart Activity 1`] = `
+<CustomChart
+  chart={
+    Object {
+      "chartKey": "apiLastDaysMetricsActivity",
+      "data": Object {
+        "datasets": Array [
+          Object {
+            "data": Array [
+              4,
+              2,
+              6,
+              5,
+              1,
+            ],
+          },
+        ],
+        "labels": Array [
+          "18/05",
+          "19/05",
+          "19/05",
+          "20/05",
+        ],
+      },
+    }
+  }
+  isLoading={false}
+  logo="bar"
+  options={null}
+  title={
+    <span>
+      Activité
+    </span>
+  }
+/>
+`;
+
+exports[`Storyshots CustomChart All Type Of Charts 1`] = `
+<Row
+  tag="div"
+>
+  <Col
+    sm={6}
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+    xs={12}
+  >
+    <CustomChart
+      chart={
+        Object {
+          "chartKey": "apiLastDaysMetricsActivity",
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "data": Array [
+                  4,
+                  2,
+                  6,
+                  5,
+                  1,
+                ],
+              },
+            ],
+            "labels": Array [
+              "18/05",
+              "19/05",
+              "19/05",
+              "20/05",
+            ],
+          },
+        }
+      }
+      isLoading={false}
+      logo="bar"
+      options={null}
+      title={
+        <span>
+          Activité
+        </span>
+      }
+    />
+  </Col>
+  <Col
+    sm={6}
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+    xs={12}
+  >
+    <CustomChart
+      chart={
+        Object {
+          "chartKey": "apiLastDaysMetricsStatusCode",
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "data": Array [
+                  6,
+                  5,
+                  3,
+                  7,
+                ],
+              },
+            ],
+            "labels": Array [
+              "2xx",
+              "4xx",
+              "504/503",
+              "5xx",
+            ],
+          },
+        }
+      }
+      isLoading={false}
+      logo="bar"
+      options={null}
+      title={
+        <span>
+          Codes HTTP (for Admin)
+        </span>
+      }
+    />
+  </Col>
+  <Col
+    sm={6}
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+    xs={12}
+  >
+    <CustomChart
+      chart={
+        Object {
+          "chartKey": "errorsMetricConsumption",
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "data": Array [
+                  6,
+                  5,
+                  3,
+                  7,
+                ],
+              },
+            ],
+            "labels": Array [
+              "2xx",
+              "4xx",
+              "504/503",
+              "5xx",
+            ],
+          },
+        }
+      }
+      isLoading={false}
+      logo="bar"
+      options={null}
+      title={
+        <span>
+          Statut HTTP (for User)
+        </span>
+      }
+    />
+  </Col>
+  <Col
+    sm={6}
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+    xs={12}
+  >
+    <CustomChart
+      chart={
+        Object {
+          "chartKey": "apiLastDaysMetricsPerformance",
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "data": Array [
+                  55,
+                  120,
+                  750,
+                  80,
+                  50,
+                  400,
+                  180,
+                  10,
+                  250,
+                  100,
+                  20,
+                ],
+              },
+              Object {
+                "data": Array [
+                  30,
+                  80,
+                  150,
+                  40,
+                  20,
+                  160,
+                  180,
+                  10,
+                  150,
+                  50,
+                  10,
+                ],
+              },
+            ],
+            "labels": Array [
+              "12/05",
+              "13/05",
+              "14/05",
+              "15/05",
+              "16/05",
+              "17/05",
+              "18/05",
+              "19/05",
+              "20/05",
+              "21/05",
+              "22/05",
+            ],
+          },
+        }
+      }
+      isLoading={false}
+      logo="bar"
+      options={null}
+      title={
+        <span>
+          Temps de réponse (ms)
+        </span>
+      }
+    />
+  </Col>
+</Row>
+`;
+
+exports[`Storyshots CustomChart Performance 1`] = `
+<CustomChart
+  chart={
+    Object {
+      "chartKey": "apiLastDaysMetricsActivity",
+      "data": Object {
+        "datasets": Array [
+          Object {
+            "data": Array [
+              4,
+              2,
+              6,
+              5,
+              1,
+            ],
+          },
+        ],
+        "labels": Array [
+          "18/05",
+          "19/05",
+          "19/05",
+          "20/05",
+        ],
+      },
+    }
+  }
+  isLoading={false}
+  logo="bar"
+  options={null}
+  title={
+    <span>
+      Temps de réponse (ms)
+    </span>
+  }
+/>
+`;
+
+exports[`Storyshots CustomChart Status Code 1`] = `
+<div>
+  <CustomChart
+    chart={
+      Object {
+        "chartKey": "apiLastDaysMetricsStatusCode",
+        "data": Object {
+          "datasets": Array [
+            Object {
+              "data": Array [
+                6,
+                5,
+                3,
+                7,
+              ],
+            },
+          ],
+          "labels": Array [
+            "2xx",
+            "4xx",
+            "504/503",
+            "5xx",
+          ],
+        },
+      }
+    }
+    isLoading={false}
+    logo="bar"
+    options={null}
+    title={
+      <span>
+        Codes HTTP (for Admin)
+      </span>
+    }
+  />
+  <CustomChart
+    chart={
+      Object {
+        "chartKey": "errorsMetricConsumption",
+        "data": Object {
+          "datasets": Array [
+            Object {
+              "data": Array [
+                6,
+                5,
+                3,
+                7,
+              ],
+            },
+          ],
+          "labels": Array [
+            "2xx",
+            "4xx",
+            "504/503",
+            "5xx",
+          ],
+        },
+      }
+    }
+    isLoading={false}
+    logo="bar"
+    options={null}
+    title={
+      <span>
+        Statut HTTP (for User)
+      </span>
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots CustomChart Top 5 Conso 1`] = `
+<CustomChart
+  chart={
+    Object {
+      "chartKey": "apiLastDaysMetricsTop5Conso",
+      "data": Object {
+        "datasets": Array [
+          Object {
+            "data": Array [
+              21,
+              10,
+              7,
+              4,
+              2,
+            ],
+          },
+        ],
+        "labels": Array [
+          "appName1",
+          "appName2",
+          "appName3",
+          "appName4",
+          "appName5",
+        ],
+      },
+    }
+  }
+  isLoading={false}
+  logo="bar"
+  options={null}
+  title={
+    <span>
+      Top 5 conso
+    </span>
+  }
+/>
+`;
+
+exports[`Storyshots DocumentationCard With Doc Close 1`] = `
+<DocumentationCardstory__StoryContainer>
+  <DocumentationCard
+    apiDoc={
+      Object {
+        "ast": Object {
+          "description": "# Test
+
+**Essai d'envoi de documentation**
+
+##### ❸ Un titre de section comme ça pour tester
+
+
+\`POST /test/v1/test/\`
+
+avec une url \`http://localhost:2000/test/callback\`
+
+Exemple de requête curl correspondant à l'appel décris ici :
+\`\`\`
+curl -s --user \\"okapi:uneKey\\" \\\\\\\\
+        --header \\"X-Okapi-Key: okapiKey
+        http://api.laposte.fr//test/v1/test/ \\\\\\\\
+        --data \\"http://localhost:2000/test/callback\\"
+{
+  \\"access_token\\":\\"token\\",
+  \\"token_type\\":\\"bearer\\",
+  \\"refresh_token\\":\\"token\\",
+  \\"expires_in\\":17744,
+  \\"scope\\":\\"trust\\"
+}
+\`\`\`
+
++ Request En cas de basic auth erronée
+
+    + Headers
+
+            X-Okapi-Key: key
+            Authorization: Basic invalid
+            Content-Type: application/x-www-form-urlencoded
+
+    + Body
+
+            grant_type=authorization_code&code=RETURNED_CODE
+
++ Response 401 (application/json; charset=utf-8)
+
+            {
+              \\"error\\": \\"bad_credentials\\",
+              \\"error_description\\": \\"Votre nom d'utilisateur ou votre code secret ne sont pas reconnus\\"
+            }
+
++ Request En cas de code erroné ou périmé
+
+    + Headers
+
+            X-Okapi-Key: key
+            Authorization: Basic b2thcGk6Nm1zdFZTdmMzOHdx
+            Content-Type: application/x-www-form-urlencoded
+
+    + Body
+
+            grant_type=authorization_code&code=EXPIRED
+
++ Response 401 (application/json; charset=utf-8)
+
+            {
+              \\"error\\": \\"invalid_grant\\",
+              \\"error_description\\": \\"Invalid authorization code: EXPIRED\\"
+            }
+
+",
+          "name": "Documentation Mock",
+        },
+      }
+    }
+    errorMessage={
+      <FormattedMessage
+        defaultMessage="Ce document, ô combien important pour les clients de votre API, n'a pas encore été saisi."
+        id="no.documentation.uploaded"
+        values={Object {}}
+      />
+    }
+    onOpenDocCard={[Function]}
+  />
+</DocumentationCardstory__StoryContainer>
+`;
+
+exports[`Storyshots DocumentationCard With no Doc 1`] = `
+<DocumentationCardstory__StoryContainer>
+  <DocumentationCard
+    apiDoc={Object {}}
+    errorMessage={
+      <FormattedMessage
+        defaultMessage="Ce document, ô combien important pour les clients de votre API, n'a pas encore été saisi."
+        id="no.documentation.uploaded"
+        values={Object {}}
+      />
+    }
+    onOpenDocCard={[Function]}
+  />
+</DocumentationCardstory__StoryContainer>
+`;
+
+exports[`Storyshots Dropdown Default caret 1`] = `
+<Dropdowncomponent__Dropdown>
+  <DropdownToggle
+    aria-haspopup={true}
+    caret={true}
+    color="secondary"
+  >
+    Select something
+  </DropdownToggle>
+  <DropdownMenu
+    flip={true}
+    tag="div"
+  >
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 1
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 2
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 3
+    </DropdownItem>
+  </DropdownMenu>
+</Dropdowncomponent__Dropdown>
+`;
+
+exports[`Storyshots Dropdown Disabled 1`] = `
+<Dropdowncomponent__Dropdown>
+  <DropdownToggle
+    aria-haspopup={true}
+    caret={true}
+    color="secondary"
+    disabled={true}
+  >
+    Select something
+  </DropdownToggle>
+  <DropdownMenu
+    flip={true}
+    tag="div"
+  >
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 1
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 2
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 3
+    </DropdownItem>
+  </DropdownMenu>
+</Dropdowncomponent__Dropdown>
+`;
+
+exports[`Storyshots Dropdown Open 1`] = `
+<Dropdowncomponent__Dropdown
+  isOpen={true}
+>
+  <DropdownToggle
+    aria-haspopup={true}
+    caret={true}
+    color="secondary"
+  >
+    Select something
+  </DropdownToggle>
+  <DropdownMenu
+    flip={true}
+    tag="div"
+  >
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 1
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 2
+    </DropdownItem>
+    <DropdownItem
+      tag="button"
+      toggle={true}
+    >
+      Element 3
+    </DropdownItem>
+  </DropdownMenu>
+</Dropdowncomponent__Dropdown>
+`;
+
+exports[`Storyshots FirstStep With FirstStepIHaveConsumerApi 1`] = `
+<FirstStepstory__StoryContainer>
+  <FirstStepIHaveConsumerApi />
+</FirstStepstory__StoryContainer>
+`;
+
+exports[`Storyshots FirstStep With fistStep FirstStepIHaveExposeApi 1`] = `
+<FirstStepstory__StoryContainer>
+  <FirstStepIHaveExposeApi />
+</FirstStepstory__StoryContainer>
+`;
+
+exports[`Storyshots H1 Default H1 1`] = `
+<H1component__H1>
+  This is an h1 component.
+</H1component__H1>
+`;
+
+exports[`Storyshots H2 Default 1`] = `
+<H2>
+  This is an h2 component.
+</H2>
+`;
+
+exports[`Storyshots H3 Default 1`] = `
+<H3component__H3>
+  This is an h3 component.
+</H3component__H3>
+`;
+
+exports[`Storyshots Highlight Default 1`] = `
+<Provider
+  store={
+    Object {
+      "asyncReducers": Object {},
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IntlProvider
+    locale="fr"
+    messages={
+      Object {
+        "highlight.clearIcon.title": "Nettoyer cette mise en avant marketing",
+        "highlight.description.label": "Description",
+        "highlight.icon.label": "Icône",
+        "highlight.title.label": "Intitulé",
+      }
+    }
+  >
+    <ReduxForm />
+  </IntlProvider>
+</Provider>
+`;
+
+exports[`Storyshots IconPicker Default 1`] = `
+<IconPicker
+  disabled={false}
+  iconListAsString={
+    Array [
+      Object {
+        "category": "DEFAULT",
+        "key": "EMPTY_ICON",
+        "name": "",
+      },
+      Object {
+        "category": "MATH",
+        "key": "PLUS",
+        "name": "fa fa-plus",
+      },
+      Object {
+        "category": "MATH",
+        "key": "PERCENT",
+        "name": "fas fa-percent",
+      },
+      Object {
+        "category": "MATH",
+        "key": "ARROW_LEFT",
+        "name": "fa fa-arrow-left",
+      },
+      Object {
+        "category": "MATH",
+        "key": "ARROW_RIGHT",
+        "name": "fa fa-arrow-right",
+      },
+      Object {
+        "category": "MATH",
+        "key": "CHECK",
+        "name": "fa fa-check",
+      },
+      Object {
+        "category": "MATH",
+        "key": "CROSS",
+        "name": "fa fa-times",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "CAR",
+        "name": "fas fa-car",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "CAR_SIDE",
+        "name": "fas fa-car-side",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "SHIPPING_TRUCK",
+        "name": "fas fa-shipping-fast",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "DOLLY",
+        "name": "fas fa-dolly",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "SHOPPING_CART",
+        "name": "fa fa-shopping-cart",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "HOME",
+        "name": "fas fa-home",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "BUILDING",
+        "name": "fas fa-building",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "INDUSTRY",
+        "name": "fas fa-industry",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_BAR",
+        "name": "fa fa-chart-bar",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_LINE",
+        "name": "fa fa-chart-line",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_PIE",
+        "name": "fa fa-chart-pie",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "PROJECT_DIAGRAM",
+        "name": "fas fa-project-diagram",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "TABLE",
+        "name": "fa fa-table",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "TACHOMETER",
+        "name": "fas fa-tachometer-alt",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "SLIDERS",
+        "name": "fa fa-sliders-h",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_DARK",
+        "name": "fas fa-envelope",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_LIGHT",
+        "name": "far fa-envelope",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_OPEN",
+        "name": "fas fa-envelope-open-text",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "MAIL_BULK",
+        "name": "fas fa-mail-bulk",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "ADDRESS_CARD",
+        "name": "far fa-address-card",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "AT",
+        "name": "fas fa-at",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "WIFI",
+        "name": "fas fa-wifi",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "GLOBE",
+        "name": "fas fa-globe",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "BLUETOOTH",
+        "name": "fab fa-bluetooth",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOUD_UPLOAD",
+        "name": "fas fa-cloud-upload-alt",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOUD",
+        "name": "fas fa-cloud",
+      },
+      Object {
+        "category": "STORE",
+        "key": "DATABASE",
+        "name": "fas fa-database",
+      },
+      Object {
+        "category": "STORE",
+        "key": "SAVE",
+        "name": "far fa-save",
+      },
+      Object {
+        "category": "STORE",
+        "key": "UPLOAD",
+        "name": "fas fa-upload",
+      },
+      Object {
+        "category": "STORE",
+        "key": "DOWNLOAD",
+        "name": "fa fa-download",
+      },
+      Object {
+        "category": "STORE",
+        "key": "SYNC",
+        "name": "fa fa-sync-alt",
+      },
+      Object {
+        "category": "STORE",
+        "key": "HISTORY",
+        "name": "fas fa-history",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOCK",
+        "name": "far fa-clock",
+      },
+      Object {
+        "category": "STORE",
+        "key": "LIGHTBULB",
+        "name": "far fa-lightbulb",
+      },
+      Object {
+        "category": "STORE",
+        "key": "BELL",
+        "name": "far fa-bell",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "BOLD",
+        "name": "fa fa-bold",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "ITALIC",
+        "name": "fa fa-italic",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "QUOTE_LEFT",
+        "name": "fa fa-quote-left",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "QUOTE_RIGHT",
+        "name": "fa fa-quote-right",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "LIST_OL",
+        "name": "fa fa-list-ol",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "LIST_UL",
+        "name": "fa fa-list-ul",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "CODE",
+        "name": "fas fa-code",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "EDIT",
+        "name": "fa fa-edit",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "SIGN_OUT",
+        "name": "fa fa-sign-out-alt",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "INFO",
+        "name": "fa fa-info-circle",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FOLDER_OPEN",
+        "name": "far fa-folder-open",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILE_PDF",
+        "name": "far fa-file-pdf",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILE_IMAGE",
+        "name": "far fa-file-image",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILM",
+        "name": "fas fa-film",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "VIDEO",
+        "name": "fas fa-video",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "MICROPHONE",
+        "name": "fas fa-microphone",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "VOLUME_UP",
+        "name": "fas fa-volume-up",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "MOBILE",
+        "name": "fas fa-mobile-alt",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "TV",
+        "name": "fas fa-tv",
+      },
+      Object {
+        "category": "MISC",
+        "key": "COG",
+        "name": "fas fa-cog",
+      },
+      Object {
+        "category": "MISC",
+        "key": "WRENCH",
+        "name": "fas fa-wrench",
+      },
+      Object {
+        "category": "SOCIAL",
+        "key": "HANDSHAKE",
+        "name": "far fa-handshake",
+      },
+      Object {
+        "category": "SOCIAL",
+        "key": "COMMENT",
+        "name": "far fa-comment",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "EURO",
+        "name": "fas fa-euro-sign",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "CREDIT_CARD",
+        "name": "far fa-credit-card",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "CALCULATOR",
+        "name": "fa fa-calculator",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "EYE",
+        "name": "far fa-eye",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "SHIELD",
+        "name": "fa fa-shield-alt",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "USER_SECRET",
+        "name": "fa fa-user-secret",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "TROPHY",
+        "name": "fas fa-trophy",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "GRADUATION_CAP",
+        "name": "fas fa-graduation-cap",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "CERTIFICATE",
+        "name": "fas fa-certificate",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "GEM",
+        "name": "far fa-gem",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "CUBES",
+        "name": "fa fa-cubes",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "HEART",
+        "name": "far fa-heart",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "STAR",
+        "name": "far fa-star",
+      },
+    ]
+  }
+  onSelectedIcon={[Function]}
+  selectedIcon=""
+/>
+`;
+
+exports[`Storyshots IconPicker Disabled 1`] = `
+<IconPicker
+  disabled={true}
+  iconListAsString={
+    Array [
+      Object {
+        "category": "DEFAULT",
+        "key": "EMPTY_ICON",
+        "name": "",
+      },
+      Object {
+        "category": "MATH",
+        "key": "PLUS",
+        "name": "fa fa-plus",
+      },
+      Object {
+        "category": "MATH",
+        "key": "PERCENT",
+        "name": "fas fa-percent",
+      },
+      Object {
+        "category": "MATH",
+        "key": "ARROW_LEFT",
+        "name": "fa fa-arrow-left",
+      },
+      Object {
+        "category": "MATH",
+        "key": "ARROW_RIGHT",
+        "name": "fa fa-arrow-right",
+      },
+      Object {
+        "category": "MATH",
+        "key": "CHECK",
+        "name": "fa fa-check",
+      },
+      Object {
+        "category": "MATH",
+        "key": "CROSS",
+        "name": "fa fa-times",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "CAR",
+        "name": "fas fa-car",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "CAR_SIDE",
+        "name": "fas fa-car-side",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "SHIPPING_TRUCK",
+        "name": "fas fa-shipping-fast",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "DOLLY",
+        "name": "fas fa-dolly",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "SHOPPING_CART",
+        "name": "fa fa-shopping-cart",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "HOME",
+        "name": "fas fa-home",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "BUILDING",
+        "name": "fas fa-building",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "INDUSTRY",
+        "name": "fas fa-industry",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_BAR",
+        "name": "fa fa-chart-bar",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_LINE",
+        "name": "fa fa-chart-line",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_PIE",
+        "name": "fa fa-chart-pie",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "PROJECT_DIAGRAM",
+        "name": "fas fa-project-diagram",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "TABLE",
+        "name": "fa fa-table",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "TACHOMETER",
+        "name": "fas fa-tachometer-alt",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "SLIDERS",
+        "name": "fa fa-sliders-h",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_DARK",
+        "name": "fas fa-envelope",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_LIGHT",
+        "name": "far fa-envelope",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_OPEN",
+        "name": "fas fa-envelope-open-text",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "MAIL_BULK",
+        "name": "fas fa-mail-bulk",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "ADDRESS_CARD",
+        "name": "far fa-address-card",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "AT",
+        "name": "fas fa-at",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "WIFI",
+        "name": "fas fa-wifi",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "GLOBE",
+        "name": "fas fa-globe",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "BLUETOOTH",
+        "name": "fab fa-bluetooth",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOUD_UPLOAD",
+        "name": "fas fa-cloud-upload-alt",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOUD",
+        "name": "fas fa-cloud",
+      },
+      Object {
+        "category": "STORE",
+        "key": "DATABASE",
+        "name": "fas fa-database",
+      },
+      Object {
+        "category": "STORE",
+        "key": "SAVE",
+        "name": "far fa-save",
+      },
+      Object {
+        "category": "STORE",
+        "key": "UPLOAD",
+        "name": "fas fa-upload",
+      },
+      Object {
+        "category": "STORE",
+        "key": "DOWNLOAD",
+        "name": "fa fa-download",
+      },
+      Object {
+        "category": "STORE",
+        "key": "SYNC",
+        "name": "fa fa-sync-alt",
+      },
+      Object {
+        "category": "STORE",
+        "key": "HISTORY",
+        "name": "fas fa-history",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOCK",
+        "name": "far fa-clock",
+      },
+      Object {
+        "category": "STORE",
+        "key": "LIGHTBULB",
+        "name": "far fa-lightbulb",
+      },
+      Object {
+        "category": "STORE",
+        "key": "BELL",
+        "name": "far fa-bell",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "BOLD",
+        "name": "fa fa-bold",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "ITALIC",
+        "name": "fa fa-italic",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "QUOTE_LEFT",
+        "name": "fa fa-quote-left",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "QUOTE_RIGHT",
+        "name": "fa fa-quote-right",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "LIST_OL",
+        "name": "fa fa-list-ol",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "LIST_UL",
+        "name": "fa fa-list-ul",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "CODE",
+        "name": "fas fa-code",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "EDIT",
+        "name": "fa fa-edit",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "SIGN_OUT",
+        "name": "fa fa-sign-out-alt",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "INFO",
+        "name": "fa fa-info-circle",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FOLDER_OPEN",
+        "name": "far fa-folder-open",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILE_PDF",
+        "name": "far fa-file-pdf",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILE_IMAGE",
+        "name": "far fa-file-image",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILM",
+        "name": "fas fa-film",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "VIDEO",
+        "name": "fas fa-video",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "MICROPHONE",
+        "name": "fas fa-microphone",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "VOLUME_UP",
+        "name": "fas fa-volume-up",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "MOBILE",
+        "name": "fas fa-mobile-alt",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "TV",
+        "name": "fas fa-tv",
+      },
+      Object {
+        "category": "MISC",
+        "key": "COG",
+        "name": "fas fa-cog",
+      },
+      Object {
+        "category": "MISC",
+        "key": "WRENCH",
+        "name": "fas fa-wrench",
+      },
+      Object {
+        "category": "SOCIAL",
+        "key": "HANDSHAKE",
+        "name": "far fa-handshake",
+      },
+      Object {
+        "category": "SOCIAL",
+        "key": "COMMENT",
+        "name": "far fa-comment",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "EURO",
+        "name": "fas fa-euro-sign",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "CREDIT_CARD",
+        "name": "far fa-credit-card",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "CALCULATOR",
+        "name": "fa fa-calculator",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "EYE",
+        "name": "far fa-eye",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "SHIELD",
+        "name": "fa fa-shield-alt",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "USER_SECRET",
+        "name": "fa fa-user-secret",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "TROPHY",
+        "name": "fas fa-trophy",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "GRADUATION_CAP",
+        "name": "fas fa-graduation-cap",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "CERTIFICATE",
+        "name": "fas fa-certificate",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "GEM",
+        "name": "far fa-gem",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "CUBES",
+        "name": "fa fa-cubes",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "HEART",
+        "name": "far fa-heart",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "STAR",
+        "name": "far fa-star",
+      },
+    ]
+  }
+  onSelectedIcon={[Function]}
+  selectedIcon=""
+/>
+`;
+
+exports[`Storyshots IconPicker Icon Selected 1`] = `
+<IconPicker
+  disabled={false}
+  iconListAsString={
+    Array [
+      Object {
+        "category": "DEFAULT",
+        "key": "EMPTY_ICON",
+        "name": "",
+      },
+      Object {
+        "category": "MATH",
+        "key": "PLUS",
+        "name": "fa fa-plus",
+      },
+      Object {
+        "category": "MATH",
+        "key": "PERCENT",
+        "name": "fas fa-percent",
+      },
+      Object {
+        "category": "MATH",
+        "key": "ARROW_LEFT",
+        "name": "fa fa-arrow-left",
+      },
+      Object {
+        "category": "MATH",
+        "key": "ARROW_RIGHT",
+        "name": "fa fa-arrow-right",
+      },
+      Object {
+        "category": "MATH",
+        "key": "CHECK",
+        "name": "fa fa-check",
+      },
+      Object {
+        "category": "MATH",
+        "key": "CROSS",
+        "name": "fa fa-times",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "CAR",
+        "name": "fas fa-car",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "CAR_SIDE",
+        "name": "fas fa-car-side",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "SHIPPING_TRUCK",
+        "name": "fas fa-shipping-fast",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "DOLLY",
+        "name": "fas fa-dolly",
+      },
+      Object {
+        "category": "VEHICLE",
+        "key": "SHOPPING_CART",
+        "name": "fa fa-shopping-cart",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "HOME",
+        "name": "fas fa-home",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "BUILDING",
+        "name": "fas fa-building",
+      },
+      Object {
+        "category": "BUILDINGS",
+        "key": "INDUSTRY",
+        "name": "fas fa-industry",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_BAR",
+        "name": "fa fa-chart-bar",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_LINE",
+        "name": "fa fa-chart-line",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "CHART_PIE",
+        "name": "fa fa-chart-pie",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "PROJECT_DIAGRAM",
+        "name": "fas fa-project-diagram",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "TABLE",
+        "name": "fa fa-table",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "TACHOMETER",
+        "name": "fas fa-tachometer-alt",
+      },
+      Object {
+        "category": "METRICS",
+        "key": "SLIDERS",
+        "name": "fa fa-sliders-h",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_DARK",
+        "name": "fas fa-envelope",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_LIGHT",
+        "name": "far fa-envelope",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "ENVELOPE_OPEN",
+        "name": "fas fa-envelope-open-text",
+      },
+      Object {
+        "category": "MAILING",
+        "key": "MAIL_BULK",
+        "name": "fas fa-mail-bulk",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "ADDRESS_CARD",
+        "name": "far fa-address-card",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "AT",
+        "name": "fas fa-at",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "WIFI",
+        "name": "fas fa-wifi",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "GLOBE",
+        "name": "fas fa-globe",
+      },
+      Object {
+        "category": "NETWORK",
+        "key": "BLUETOOTH",
+        "name": "fab fa-bluetooth",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOUD_UPLOAD",
+        "name": "fas fa-cloud-upload-alt",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOUD",
+        "name": "fas fa-cloud",
+      },
+      Object {
+        "category": "STORE",
+        "key": "DATABASE",
+        "name": "fas fa-database",
+      },
+      Object {
+        "category": "STORE",
+        "key": "SAVE",
+        "name": "far fa-save",
+      },
+      Object {
+        "category": "STORE",
+        "key": "UPLOAD",
+        "name": "fas fa-upload",
+      },
+      Object {
+        "category": "STORE",
+        "key": "DOWNLOAD",
+        "name": "fa fa-download",
+      },
+      Object {
+        "category": "STORE",
+        "key": "SYNC",
+        "name": "fa fa-sync-alt",
+      },
+      Object {
+        "category": "STORE",
+        "key": "HISTORY",
+        "name": "fas fa-history",
+      },
+      Object {
+        "category": "STORE",
+        "key": "CLOCK",
+        "name": "far fa-clock",
+      },
+      Object {
+        "category": "STORE",
+        "key": "LIGHTBULB",
+        "name": "far fa-lightbulb",
+      },
+      Object {
+        "category": "STORE",
+        "key": "BELL",
+        "name": "far fa-bell",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "BOLD",
+        "name": "fa fa-bold",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "ITALIC",
+        "name": "fa fa-italic",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "QUOTE_LEFT",
+        "name": "fa fa-quote-left",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "QUOTE_RIGHT",
+        "name": "fa fa-quote-right",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "LIST_OL",
+        "name": "fa fa-list-ol",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "LIST_UL",
+        "name": "fa fa-list-ul",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "CODE",
+        "name": "fas fa-code",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "EDIT",
+        "name": "fa fa-edit",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "SIGN_OUT",
+        "name": "fa fa-sign-out-alt",
+      },
+      Object {
+        "category": "TEXT",
+        "key": "INFO",
+        "name": "fa fa-info-circle",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FOLDER_OPEN",
+        "name": "far fa-folder-open",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILE_PDF",
+        "name": "far fa-file-pdf",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILE_IMAGE",
+        "name": "far fa-file-image",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "FILM",
+        "name": "fas fa-film",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "VIDEO",
+        "name": "fas fa-video",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "MICROPHONE",
+        "name": "fas fa-microphone",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "VOLUME_UP",
+        "name": "fas fa-volume-up",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "MOBILE",
+        "name": "fas fa-mobile-alt",
+      },
+      Object {
+        "category": "MEDIA",
+        "key": "TV",
+        "name": "fas fa-tv",
+      },
+      Object {
+        "category": "MISC",
+        "key": "COG",
+        "name": "fas fa-cog",
+      },
+      Object {
+        "category": "MISC",
+        "key": "WRENCH",
+        "name": "fas fa-wrench",
+      },
+      Object {
+        "category": "SOCIAL",
+        "key": "HANDSHAKE",
+        "name": "far fa-handshake",
+      },
+      Object {
+        "category": "SOCIAL",
+        "key": "COMMENT",
+        "name": "far fa-comment",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "EURO",
+        "name": "fas fa-euro-sign",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "CREDIT_CARD",
+        "name": "far fa-credit-card",
+      },
+      Object {
+        "category": "BUSINESS",
+        "key": "CALCULATOR",
+        "name": "fa fa-calculator",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "EYE",
+        "name": "far fa-eye",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "SHIELD",
+        "name": "fa fa-shield-alt",
+      },
+      Object {
+        "category": "SECURITY",
+        "key": "USER_SECRET",
+        "name": "fa fa-user-secret",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "TROPHY",
+        "name": "fas fa-trophy",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "GRADUATION_CAP",
+        "name": "fas fa-graduation-cap",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "CERTIFICATE",
+        "name": "fas fa-certificate",
+      },
+      Object {
+        "category": "SUCCESS",
+        "key": "GEM",
+        "name": "far fa-gem",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "CUBES",
+        "name": "fa fa-cubes",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "HEART",
+        "name": "far fa-heart",
+      },
+      Object {
+        "category": "SYMBOLS",
+        "key": "STAR",
+        "name": "far fa-star",
+      },
+    ]
+  }
+  onSelectedIcon={[Function]}
+  selectedIcon="fas fa-code"
+/>
+`;
+
+exports[`Storyshots Img Default (size 400x400) 1`] = `
+<Img
+  alt="https://dummyimage.com/600x400/000/fff"
+  src="https://dummyimage.com/400x400/000/fff"
+/>
+`;
+
+exports[`Storyshots Img Fluid - responsive (size 400x400) 1`] = `
+<Img
+  alt="https://dummyimage.com/600x400/000/fff"
+  fluid={true}
+  src="https://dummyimage.com/400x400/000/fff"
+/>
+`;
+
+exports[`Storyshots InfoIcon Change default icon 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <InfoIcon
+      icon="fa fa-info"
+      idTooltip=""
+      isTooltipOpen={false}
+      placement="top"
+    >
+      Informations to display
+    </InfoIcon>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InfoIcon Change position 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <InfoIcon
+      icon="fa fa-question-circle"
+      idTooltip=""
+      isTooltipOpen={false}
+      placement="bottom"
+    >
+      Informations to display
+    </InfoIcon>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InfoIcon Default 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <InfoIcon
+      icon="fa fa-question-circle"
+      idTooltip=""
+      isTooltipOpen={false}
+      placement="top"
+    >
+      Informations to display
+    </InfoIcon>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InfoIcon Multiple IconInfo components 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <InfoIcon
+      icon="fa fa-info"
+      idTooltip="unique-id-1"
+      isTooltipOpen={false}
+      placement="top"
+    >
+      Informations 1
+    </InfoIcon>
+     
+    <InfoIcon
+      icon="fa fa-question-circle"
+      idTooltip="unique-id-2"
+      isTooltipOpen={false}
+      placement="top"
+    >
+      Informations 2
+    </InfoIcon>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InputField Default 1`] = `
+<InjectIntl(InputField)
+  id="0"
+  input={Object {}}
+  label=""
+  meta={
+    Object {
+      "error": "",
+      "touched": false,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="text"
+/>
+`;
+
+exports[`Storyshots InputField Different styleS to compare 1`] = `
+<div>
+  <InjectIntl(InputField)
+    id="0"
+    input={Object {}}
+    label="Un label"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={false}
+    rows="5"
+    type="text"
+  />
+  <InjectIntl(InputField)
+    id="0"
+    input={
+      Object {
+        "value": "I am not a placeholder but a real valuable text",
+      }
+    }
+    label="Un label"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={false}
+    rows="5"
+    type="text"
+  />
+  <InjectIntl(InputField)
+    disabled={true}
+    id="0"
+    input={
+      Object {
+        "value": "I am not a placeholder but a real valuable text",
+      }
+    }
+    label="Un label"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={false}
+    rows="5"
+    type="text"
+  />
+  <InjectIntl(InputField)
+    disabled={true}
+    id="0"
+    input={Object {}}
+    label="Un label"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={false}
+    rows="5"
+    type="text"
+  />
+  <InjectIntl(InputField)
+    disabled={true}
+    id="0"
+    input={Object {}}
+    label="Un label"
+    meta={
+      Object {
+        "error": "",
+        "touched": false,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={true}
+    rows="5"
+    type="text"
+  />
+  <InjectIntl(InputField)
+    id="0"
+    input={
+      Object {
+        "value": "I am not a placeholder but a real valuable text",
+      }
+    }
+    label="Un label"
+    meta={
+      Object {
+        "error": "app.services.Validator.errorNamePattern",
+        "touched": true,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={false}
+    rows="5"
+    type="text"
+  />
+  <InjectIntl(InputField)
+    id="0"
+    input={Object {}}
+    label="Un label"
+    meta={
+      Object {
+        "error": "app.services.Validator.errorNamePattern",
+        "touched": true,
+      }
+    }
+    name="text"
+    placeholder="placeholder"
+    required={true}
+    rows="5"
+    type="text"
+  />
+</div>
+`;
+
+exports[`Storyshots InputField Disabled 1`] = `
+<InjectIntl(InputField)
+  disabled={true}
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "",
+      "touched": false,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="text"
+/>
+`;
+
+exports[`Storyshots InputField Required 1`] = `
+<InjectIntl(InputField)
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "",
+      "touched": false,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={true}
+  rows="5"
+  type="text"
+/>
+`;
+
+exports[`Storyshots InputField Text Area 1`] = `
+<InjectIntl(InputField)
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "",
+      "touched": false,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="textarea"
+/>
+`;
+
+exports[`Storyshots InputField Text Area Disabled 1`] = `
+<InjectIntl(InputField)
+  disabled={true}
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "",
+      "touched": false,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="textarea"
+/>
+`;
+
+exports[`Storyshots InputField Text Area with error 1`] = `
+<InjectIntl(InputField)
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "app.services.Validator.errorNamePattern",
+      "touched": true,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="textarea"
+/>
+`;
+
+exports[`Storyshots InputField Text with Error 1`] = `
+<InjectIntl(InputField)
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "app.services.Validator.errorNamePattern",
+      "touched": true,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="text"
+/>
+`;
+
+exports[`Storyshots InputField With Label 1`] = `
+<InjectIntl(InputField)
+  id="0"
+  input={Object {}}
+  label="Un label"
+  meta={
+    Object {
+      "error": "",
+      "touched": false,
+    }
+  }
+  name="text"
+  placeholder="placeholder"
+  required={false}
+  rows="5"
+  type="text"
+/>
+`;
+
+exports[`Storyshots Link Default 1`] = `
+<Link>
+   This is a link 
+</Link>
+`;
+
+exports[`Storyshots Link Disabled 1`] = `
+<Link
+  isDisabled={true}
+>
+  This is a disabled link
+</Link>
+`;
+
+exports[`Storyshots LinkIcon Default 1`] = `
+<LinkIcon
+  href="#"
+  iconFontAwesome="fas fa-trash-alt"
+/>
+`;
+
+exports[`Storyshots LinkIcon Disabled 1`] = `
+<LinkIcon
+  href="#"
+  iconFontAwesome="fas fa-trash-alt"
+  isDisabled={true}
+/>
+`;
+
+exports[`Storyshots MarkdownEditor Nominal case 1`] = `
+<InjectIntl(MarkdownEditor)
+  input={
+    Object {
+      "onChange": [Function],
+      "value": "# Hello
+
++ Response",
+    }
+  }
+  meta={
+    Object {
+      "error": "",
+      "touched": true,
+    }
+  }
+  required={true}
+/>
+`;
+
+exports[`Storyshots MarkdownHelp Nominal case 1`] = `
+<MarkdownHelp
+  isOpen={true}
+  toggle={[Function]}
+/>
+`;
+
+exports[`Storyshots MenuApis Default 1`] = `
+<InjectIntl(MenuApis)
+  apis={
+    Array [
+      Object {
+        "name": "apiName",
+        "version": "1",
+      },
+      Object {
+        "name": "apiName",
+        "version": "2",
+      },
+      Object {
+        "name": "apiName",
+        "version": "3",
+      },
+      Object {
+        "name": "apiName",
+        "version": "4",
+      },
+      Object {
+        "name": "apiName",
+        "version": "5",
+      },
+    ]
+  }
+  id="foo"
+  onSelectApi={[Function]}
+  selectedApi={
+    Object {
+      "name": "api",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots MenuApis Disabled 1`] = `
+<InjectIntl(MenuApis)
+  apis={
+    Array [
+      Object {
+        "name": "apiName",
+        "version": "1",
+      },
+      Object {
+        "name": "apiName",
+        "version": "2",
+      },
+      Object {
+        "name": "apiName",
+        "version": "3",
+      },
+      Object {
+        "name": "apiName",
+        "version": "4",
+      },
+      Object {
+        "name": "apiName",
+        "version": "5",
+      },
+    ]
+  }
+  id="foo"
+  isDisabled={true}
+  onSelectApi={[Function]}
+  selectedApi={
+    Object {
+      "name": "api",
+      "version": "1",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots MenuAuthenticated Default 1`] = `
+<MenuAuthenticatedstory__Container>
+  <MenuAuthenticated
+    currentRoute=""
+    user={Object {}}
+  />
+</MenuAuthenticatedstory__Container>
+`;
+
+exports[`Storyshots MenuAuthenticated Developer is connected 1`] = `
+<MenuAuthenticatedstory__Container>
+  <MenuAuthenticated
+    currentRoute="/profile"
+    user={
+      Immutable.Map {
+        "rights": Immutable.List [
+          "app-create",
+        ],
+      }
+    }
+  />
+</MenuAuthenticatedstory__Container>
+`;
+
+exports[`Storyshots MenuAuthenticated Provider is connected 1`] = `
+<MenuAuthenticatedstory__Container>
+  <MenuAuthenticated
+    currentRoute="/api-dashboard"
+    user={
+      Immutable.Map {
+        "rights": Immutable.List [
+          "api-create",
+        ],
+      }
+    }
+  />
+</MenuAuthenticatedstory__Container>
+`;
+
+exports[`Storyshots Resource form Dashboard for Admin/Provider 1`] = `
+<Provider
+  store={
+    Object {
+      "asyncReducers": Object {},
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IntlProvider
+    locale="fr"
+    messages={
+      Object {
+        "apis.administration.addResourceForm.addResourceCancel": "Annuler",
+        "apis.administration.addResourceForm.placeHolderResourceDescription": "Max : 200 caractères",
+        "apis.administration.addResourceForm.placeHolderResourceName": "Ma Ressource",
+        "apis.administration.addResourceForm.placeHolderResourceRoute": "/route/path",
+        "apis.administration.addResourceForm.resourceDescription": "Description",
+        "apis.administration.addResourceForm.resourceMethod": "Verbe",
+        "apis.administration.addResourceForm.resourceName": "Nom",
+        "apis.administration.addResourceForm.resourcePublished": "Publier la ressource",
+        "apis.administration.addResourceForm.resourceRoute": "Route",
+        "apis.administration.addResourceForm.resourceRouteDelete": "DELETE",
+        "apis.administration.addResourceForm.resourceRouteGet": "GET",
+        "apis.administration.addResourceForm.resourceRouteHead": "HEAD",
+        "apis.administration.addResourceForm.resourceRouteOptions": "OPTIONS",
+        "apis.administration.addResourceForm.resourceRoutePatch": "PATCH",
+        "apis.administration.addResourceForm.resourceRoutePost": "POST",
+        "apis.administration.addResourceForm.resourceRoutePut": "PUT",
+        "apis.administration.addResourceForm.resourceSubmit": "Val",
+        "app.services.Validator.errorRoutSize": "La route est trop longue. Max 200 caractères.",
+        "app.services.Validator.errorRoutePattern": "Le format de la route est invalide.",
+        "app.services.Validator.errorUriPattern": "Le format de l'url est invalide.",
+      }
+    }
+  >
+    <div>
+      <Connect(ReduxForm)
+        handleSubmit={[Function]}
+        onCancelForm={[Function]}
+        onSubmitResource={[Function]}
+      />
+      <ResourceCard
+        resource={
+          Object {
+            "description": "Here is a resource example !",
+            "id": "resourceId",
+            "method": "get",
+            "name": "API Resource Example",
+            "published": true,
+            "route": "/resource/example/:id",
+          }
+        }
+      >
+        <Toggle
+          checked={true}
+          id="toggle-1"
+          onChange={[Function]}
+        />
+      </ResourceCard>
+    </div>
+  </IntlProvider>
+</Provider>
+`;
+
+exports[`Storyshots ResourceCard CUSTOM 1`] = `
+<ResourceCard
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "endpoint": "/endpoint",
+      "id": "resourceId",
+      "method": "get",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <InjectIntl(ResourceLocked)
+    id="resourceId"
+  />
+  <Toggle
+    checkedTitle="Dépublier la ressource"
+    id="id"
+    onChange={[Function]}
+    uncheckedTitle="Publier la ressource"
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceCard DELETE 1`] = `
+<ResourceCard
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "id": "resourceId",
+      "method": "delete",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <ButtonIcon
+    disabled={false}
+    iconFontAwesome="fas fa-trash-alt"
+    iconSize="1.25rem"
+    id="resourceId"
+    onClick={[Function]}
+    title="Supprimer cette ressource"
+  />
+  <Toggle
+    checkedTitle="Dépublier la ressource"
+    id="id"
+    onChange={[Function]}
+    uncheckedTitle="Publier la ressource"
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceCard GET-closed 1`] = `
+<ResourceCard
+  isOpen={false}
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "id": "resourceId",
+      "method": "get",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <InjectIntl(ResourceLocked)
+    iconFontAwesome="fas fa-trash-alt"
+    iconSize="1.25rem"
+    id="resourceId"
+    onClick={[Function]}
+    title="Supprimer cette ressource"
+  />
+  <RotatableIconButton
+    iconFontAwesome="fa fa-chevron-down"
+    iconSize="1.25rem"
+    id="collapse-action-resourceId"
+    isActive={false}
+    onClick={[Function]}
+    title="Afficher le detail"
+  />
+  <Toggle
+    checkedTitle="Dépublier la ressource"
+    id="id"
+    onChange={[Function]}
+    uncheckedTitle="Publier la ressource"
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceCard GET-open 1`] = `
+<ResourceCard
+  isOpen={true}
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "id": "resourceId",
+      "method": "get",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <ButtonIcon
+    disabled={false}
+    iconFontAwesome="fas fa-trash-alt"
+    iconSize="1.25rem"
+    id="resourceId"
+    onClick={[Function]}
+    title="Supprimer cette ressource"
+  />
+  <RotatableIconButton
+    iconFontAwesome="fa fa-chevron-down"
+    iconSize="1.25rem"
+    id="collapse-action-resourceId"
+    isActive={true}
+    onClick={[Function]}
+    title="Cacher le detail"
+  />
+  <Toggle
+    icons={
+      Object {
+        "checked": <InjectIntl(ResourceList)
+          className="fas fa-check"
+          title="Dépublier la ressource"
+        />,
+        "unchecked": <InjectIntl(ResourceList)
+          className="fas fa-times"
+          title="Publier la ressource"
+        />,
+      }
+    }
+    id="id"
+    onChange={[Function]}
+  />
+  <InjectIntl(ResourceDetails)
+    resource={
+      Object {
+        "description": "Here is a resource example !",
+        "id": "resourceId",
+        "method": "get",
+        "name": "API Resource Example",
+        "published": true,
+        "route": "/resource/example/:id",
+      }
+    }
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceCard OTHERS 1`] = `
+<ResourceCard
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "id": "resourceId",
+      "method": "patch",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <ButtonIcon
+    disabled={false}
+    iconFontAwesome="fas fa-trash-alt"
+    iconSize="1.25rem"
+    id="resourceId"
+    onClick={[Function]}
+    title="Supprimer cette ressource"
+  />
+  <Toggle
+    checkedTitle="Dépublier la ressource"
+    id="id"
+    onChange={[Function]}
+    uncheckedTitle="Publier la ressource"
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceCard POST 1`] = `
+<ResourceCard
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "id": "resourceId",
+      "method": "post",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <ButtonIcon
+    disabled={false}
+    iconFontAwesome="fas fa-trash-alt"
+    iconSize="1.25rem"
+    id="resourceId"
+    onClick={[Function]}
+    title="Supprimer cette ressource"
+  />
+  <Toggle
+    checkedTitle="Dépublier la ressource"
+    id="id"
+    onChange={[Function]}
+    uncheckedTitle="Publier la ressource"
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceCard PUT 1`] = `
+<ResourceCard
+  resource={
+    Object {
+      "description": "Here is a resource example !",
+      "id": "resourceId",
+      "method": "put",
+      "name": "API Resource Example",
+      "published": true,
+      "route": "/resource/example/:id",
+    }
+  }
+>
+  <ButtonIcon
+    disabled={false}
+    iconFontAwesome="fas fa-trash-alt"
+    iconSize="1.25rem"
+    id="resourceId"
+    onClick={[Function]}
+    title="Supprimer cette ressource"
+  />
+  <Toggle
+    checkedTitle="Dépublier la ressource"
+    id="id"
+    onChange={[Function]}
+    uncheckedTitle="Publier la ressource"
+  />
+</ResourceCard>
+`;
+
+exports[`Storyshots ResourceList Default 1`] = `
+<InjectIntl(ResourceList)
+  onResourceDeleted={[Function]}
+  onTogglePublishResource={[Function]}
+  resources={
+    Array [
+      Object {
+        "description": "foo",
+        "id": "resource1",
+        "method": "get",
+        "name": "API Resource 1",
+        "published": true,
+        "route": "/foo",
+      },
+      Object {
+        "description": "foo",
+        "id": "resource2",
+        "method": "post",
+        "name": "API Resource 2",
+        "published": false,
+        "route": "/foo",
+      },
+      Object {
+        "description": "foo",
+        "id": "resource3",
+        "method": "put",
+        "name": "API Resource 3",
+        "published": true,
+        "route": "/foo",
+      },
+      Object {
+        "description": "foo",
+        "endpoint": "/endpoint",
+        "id": "resource4",
+        "method": "delete",
+        "name": "API Resource 4 that have a very very very long name",
+        "published": false,
+        "route": "/foo/bar/toto/titi/tata/titi/titi/tata/toto/titi/tata/:code",
+      },
+      Object {
+        "description": "foo",
+        "endpoint": "/endpoint",
+        "id": "resource5",
+        "method": "patch",
+        "name": "API Resource 5",
+        "published": true,
+        "route": "/foo",
+      },
+      Object {
+        "description": "bar",
+        "endpoint": "/endpoint",
+        "id": "resource6",
+        "method": "post",
+        "name": "API Resource 6",
+        "published": true,
+        "route": "/bar",
+      },
+      Object {
+        "description": "bar",
+        "endpoint": "/endpoint",
+        "id": "resource7",
+        "method": "connect",
+        "name": "API Resource 7",
+        "published": true,
+        "route": "/bar",
+      },
+      Object {
+        "description": "bar",
+        "endpoint": "/endpoint",
+        "id": "resource8",
+        "method": "options",
+        "name": "API Resource 8",
+        "published": true,
+        "route": "/bar",
+      },
+      Object {
+        "description": "bar",
+        "endpoint": "/endpoint",
+        "id": "resource9",
+        "method": "head",
+        "name": "API Resource 9",
+        "published": true,
+        "route": "/bar",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Storyshots ResourceLocked Default 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <InjectIntl(ResourceLocked) />
+</div>
+`;
+
+exports[`Storyshots SelectField SelectField 1`] = `
+<div>
+  <SelectField
+    component={[Function]}
+    disabled={false}
+    label="Choisir une option"
+    name="method"
+    options={
+      Array [
+        Object {
+          "label": "Option 1",
+          "value": "",
+        },
+        Object {
+          "label": "Option 2",
+          "value": "",
+        },
+        Object {
+          "label": "Option 3",
+          "value": "",
+        },
+        Object {
+          "label": "Option 4",
+          "value": "",
+        },
+        Object {
+          "label": "Option 5",
+          "value": "",
+        },
+      ]
+    }
+    type="select"
+  />
+</div>
+`;
+
+exports[`Storyshots SortButton SortButton asc 1`] = `
+<div>
+  <InjectIntl(SortButton)
+    component={[Function]}
+    id="sortButton-verb"
+    message={
+      Object {
+        "defaultMessage": "Foo",
+        "id": "message.id",
+      }
+    }
+    onClick={[Function]}
+    sortBy="verb"
+    sortWay="asc"
+    value="verb"
+  />
+</div>
+`;
+
+exports[`Storyshots SortButton SortButton desc 1`] = `
+<div>
+  <InjectIntl(SortButton)
+    component={[Function]}
+    id="sortButton-verb"
+    message={
+      Object {
+        "defaultMessage": "Foo",
+        "id": "message.id",
+      }
+    }
+    onClick={[Function]}
+    sortBy="verb"
+    sortWay="desc"
+    value="verb"
+  />
+</div>
+`;
+
+exports[`Storyshots SortButton SortButton inactive 1`] = `
+<div>
+  <InjectIntl(SortButton)
+    component={[Function]}
+    id="sortButton-verb"
+    message={
+      Object {
+        "defaultMessage": "Foo",
+        "id": "message.id",
+      }
+    }
+    onClick={[Function]}
+    sortBy="route"
+    sortWay="asc"
+    value="verb"
+  />
+</div>
+`;
+
+exports[`Storyshots StatusIcon KO 1`] = `
+<StatusIcon
+  state=""
+/>
+`;
+
+exports[`Storyshots StatusIcon OK 1`] = `
+<StatusIcon
+  state="OK"
+/>
+`;
+
+exports[`Storyshots StyleGuide Colors 1`] = `
+<div>
+  <StyleGuidestory__StorybookTitle>
+     Colors 
+  </StyleGuidestory__StorybookTitle>
+  <StyleGuidestory__ColorsContainer>
+    <ColorsComponent />
+  </StyleGuidestory__ColorsContainer>
+  <hr />
+  <StyleGuidestory__StorybookTitle>
+     Elements 
+  </StyleGuidestory__StorybookTitle>
+  <StyleGuidestory__ColorsContainer>
+    <ElementColorsComponent />
+  </StyleGuidestory__ColorsContainer>
+  <hr />
+  <StyleGuidestory__StorybookTitle>
+     Charts Colors 
+  </StyleGuidestory__StorybookTitle>
+  <StyleGuidestory__ColorsContainer>
+    <ChartColorsComponent />
+  </StyleGuidestory__ColorsContainer>
+  <hr />
+  <StyleGuidestory__StorybookTitle>
+     Legacy Colors 
+  </StyleGuidestory__StorybookTitle>
+  <StyleGuidestory__ColorsContainer>
+    <StyleGuidestory__OneColorContainer>
+      <StyleGuidestory__Label>
+         Grey 
+      </StyleGuidestory__Label>
+      <StyleGuidestory__Color
+        color="#EEEEEE"
+      />
+    </StyleGuidestory__OneColorContainer>
+  </StyleGuidestory__ColorsContainer>
+</div>
+`;
+
+exports[`Storyshots StyleGuide Fonts 1`] = `
+<div>
+  <StyleGuidestory__StorybookTitle>
+     Titles 
+  </StyleGuidestory__StorybookTitle>
+  <h1>
+    This is an h1.
+  </h1>
+  <h2>
+    This is an h2.
+  </h2>
+  <h3>
+    This is an h3.
+  </h3>
+  <h4>
+    This is an h4.
+  </h4>
+  <h5>
+    This is an h5.
+  </h5>
+  <h6>
+    This is an h6.
+  </h6>
+  <hr />
+  <StyleGuidestory__StorybookTitle>
+     Fonts 
+  </StyleGuidestory__StorybookTitle>
+  <fontsstyle__Light>
+     Light font 
+  </fontsstyle__Light>
+  <br />
+  <fontsstyle__Regular>
+     Regular font 
+  </fontsstyle__Regular>
+  <br />
+  <fontsstyle__Bold>
+     Bold font 
+  </fontsstyle__Bold>
+  <br />
+</div>
+`;
+
+exports[`Storyshots StyleGuide Normal 1`] = `<StyleGuide />`;
+
+exports[`Storyshots SubscriptionActivity SubscriptionActivity 1`] = `
+<div>
+  <CardHeader
+    tag="div"
+  >
+    <i
+      className="fa fa-calculator"
+    />
+     
+     Souscriptions
+  </CardHeader>
+  <CardBlockcomponent__CardBlock>
+    <SubscriptionActivity
+      subscriptionActivity={
+        Object {
+          "subscriptionsForLast60days": 7,
+          "subscriptionsTotal": 10,
+          "unsubscriptionsForLast60days": 4,
+        }
+      }
+    />
+  </CardBlockcomponent__CardBlock>
+</div>
+`;
+
+exports[`Storyshots Toggle Default 1`] = `
+<Toggle
+  checkedTitle="Decocher le Toggle"
+  id="foo"
+  onChange={[Function]}
+  uncheckedTitle="Cocher le Toggle"
+/>
+`;
+
+exports[`Storyshots Tooltip Default 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <div
+      id="tooltipTarget"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      Tooltip target
+    </div>
+    <Tooltip
+      target="tooltipTarget"
+    >
+      Tooltip content
+    </Tooltip>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tooltip Open by default to the bottom 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <div
+      id="tooltipTarget"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      Tooltip target
+    </div>
+    <Tooltip
+      placement="bottom"
+      target="tooltipTarget"
+    >
+      Tooltip content
+    </Tooltip>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tooltip Open by default to the left 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <div
+      id="tooltipTarget"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      Tooltip target
+    </div>
+    <Tooltip
+      placement="left"
+      target="tooltipTarget"
+    >
+      Tooltip content
+    </Tooltip>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tooltip Open by default to the right 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <div
+      id="tooltipTarget"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      Tooltip target
+    </div>
+    <Tooltip
+      placement="right"
+      target="tooltipTarget"
+    >
+      Tooltip content
+    </Tooltip>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tooltip Open by default to the top 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "200px",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <div
+      id="tooltipTarget"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      Tooltip target
+    </div>
+    <Tooltip
+      placement="top"
+      target="tooltipTarget"
+    >
+      Tooltip content
+    </Tooltip>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TrafficMaxAndAvg TrafficMaxAndAvg 1`] = `
+<div>
+  <CardHeader
+    tag="div"
+  >
+    <i
+      className="fa fa-calculator"
+    />
+     
+     Trafic des 60 derniers jours
+  </CardHeader>
+  <CardBlockcomponent__CardBlock>
+    <TrafficMaxAndAvg
+      trafficMaxAndAvg={
+        Object {
+          "trafficAvg": 403,
+          "trafficMax": 645,
+        }
+      }
+    />
+  </CardBlockcomponent__CardBlock>
+</div>
+`;
+
+exports[`Storyshots UserCard Default (no ellipsis needed, all fields present) 1`] = `
+<div
+  style={
+    Object {
+      "width": "1080px",
+    }
+  }
+>
+  <InjectIntl(UserCard)
+    onRemoveUser={[Function]}
+    user={
+      Object {
+        "email": "cnum@digiposte.io",
+        "firstName": "Confiance",
+        "lastName": "Numérique",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots UserCard Ellipsis needed for mail & name 1`] = `
+<div
+  style={
+    Object {
+      "width": "1080px",
+    }
+  }
+>
+  <InjectIntl(UserCard)
+    onRemoveUser={[Function]}
+    user={
+      Object {
+        "email": "hubert@bonisseurdelaba.th",
+        "firstName": "Hubert",
+        "lastName": "Bonisseur de la Bath",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots UserCard No name present 1`] = `
+<div
+  style={
+    Object {
+      "width": "1080px",
+    }
+  }
+>
+  <InjectIntl(UserCard)
+    onRemoveUser={[Function]}
+    user={
+      Object {
+        "email": "john@doe.foo",
+      }
+    }
+  />
+</div>
+`;

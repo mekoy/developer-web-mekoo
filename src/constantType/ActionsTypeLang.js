@@ -1,0 +1,4 @@
+
+export const SELECTLANG = 'SELECTLANG';
+export const INVALIDLANG = 'INVALIDLANG';
+export const RECEIVESLANG = 'RECEIVESLANG';

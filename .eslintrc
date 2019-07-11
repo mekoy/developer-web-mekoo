@@ -14,8 +14,7 @@
     "plugins": [
         "redux-saga",
         "react",
-        "jsx-a11y",
-        "react"
+        "jsx-a11y"
     ],
     "parserOptions": {
         "ecmaVersion": 8,
@@ -45,6 +44,8 @@
           "import/no-named-as-default": 0,
           "import/no-unresolved": 2,
           "import/prefer-default-export": 0,
+          "react/jsx-uses-react": "error",
+          "react/jsx-uses-vars": "error",
           "indent": [
             2,
             2,
@@ -67,8 +68,6 @@
           "prefer-template": 2,
           "class-methods-use-this": 0,
           "react/forbid-prop-types": 0,
-          "react/jsx-uses-react": "error",
-          "react/jsx-uses-vars": "error",
           "react/jsx-first-prop-new-line": [
             2,
             "multiline"
