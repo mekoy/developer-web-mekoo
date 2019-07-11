@@ -15,7 +15,7 @@
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "watch": "webpack --progress --colors --watch",
-    "start": "npm-run-all -p start-js watch-css ",
+    "start": "npm-run-all -p start-js watch-css",
     "monitor": "webpack-dev-server --hot --inline --colors --content-base public/ --host=127.0.0.1",
     "package": "webpack --progress --colors -p",
     "test": "npm run test-enzyme",
