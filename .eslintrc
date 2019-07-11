@@ -1,7 +1,9 @@
 {
     "parser": "babel-eslint",
     "extends": [
-        "airbnb"
+        "airbnb",
+        "eslint:recommended",
+        "plugin:react/recommended"
     ],
     "env": {
         "browser": true,
@@ -12,7 +14,8 @@
     "plugins": [
         "redux-saga",
         "react",
-        "jsx-a11y"
+        "jsx-a11y",
+        "react"
     ],
     "parserOptions": {
         "ecmaVersion": 8,
@@ -64,6 +67,8 @@
           "prefer-template": 2,
           "class-methods-use-this": 0,
           "react/forbid-prop-types": 0,
+          "react/jsx-uses-react": "error",
+          "react/jsx-uses-vars": "error",
           "react/jsx-first-prop-new-line": [
             2,
             "multiline"

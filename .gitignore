@@ -6,7 +6,6 @@ public/bundle.js.map
 jest-cache
 coverage
 build
-public
 .githash
 
 .DS_Store

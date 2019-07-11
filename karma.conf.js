@@ -1,7 +1,7 @@
 // Karma configuration
 // Generated on Sat May 04 2019 19:24:23 GMT+0200 (Paris, Madrid (heure d’été))
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -10,7 +10,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine','browserify', 'mocha', 'fixture'],
+    frameworks: ['jasmine', 'browserify', 'mocha', 'fixture'],
 
 
     // list of files / patterns to load in the browser
@@ -19,8 +19,8 @@ module.exports = function(config) {
       {
         pattern: 'package.json',
         served: true,
-        included: false
-      }
+        included: false,
+      },
     ],
 
 
@@ -70,6 +70,6 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
-  })
-}
+    concurrency: Infinity,
+  });
+};
