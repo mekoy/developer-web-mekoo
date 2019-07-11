@@ -35,8 +35,7 @@
   "husky": {
     "hooks": {
       "post-checkout": "npm run generategithash:ignore",
-      "pre-commit": "npm run lint && npm run test",
-      "pre-push": "npm run check"
+      "pre-commit": "npm run lint && npm run test"
     }
   },
   "dependencies": {
