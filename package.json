@@ -229,7 +229,7 @@
     "redux-devtools": "^3.4.0",
     "rimraf": "2.5.4",
     "sass-loader": "7.1.0",
-    "shelljs": "0.7.5",
+    "shelljs": "0.8.5",
     "style-loader": "0.23.1",
     "stylelint": "7.10.1",
     "stylelint-config-standard": "16.0.0",
